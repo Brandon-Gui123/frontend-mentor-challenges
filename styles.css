@@ -48,3 +48,14 @@ section
     font-size: 1.25em;
     color: hsl(220, 15%, 55%);
 }
+
+.credits
+{
+    font-family: Outfit;
+    background-color:hsl(0, 0%, 9%);
+    color:hsl(212, 45%, 89%);
+    padding: 0.5em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
