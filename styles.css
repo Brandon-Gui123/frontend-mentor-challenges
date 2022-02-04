@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family: Outfit;
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+
 body
 {
     background-color: hsl(217, 54%, 11%);
