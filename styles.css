@@ -4,6 +4,11 @@
     src: url(fonts/Outfit-VariableFont_wght.ttf);
 }
 
+:root
+{
+    --card-font-family: Outfit, Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body
 {
     background-color: hsl(217, 54%, 11%);
