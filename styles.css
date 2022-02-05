@@ -76,3 +76,9 @@ body
 {
     color: hsl(0, 0%, 100%)
 }
+
+.creator img
+{
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+}
