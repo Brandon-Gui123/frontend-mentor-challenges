@@ -75,6 +75,7 @@ body
 .nft-preview-card .nft-image
 {
     position: relative;
+    display: flex;
 }
 
 .nft-preview-card .nft-image > img
