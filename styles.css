@@ -39,6 +39,24 @@ body
     color: hsl(215, 51%, 70%);
 }
 
+.nft-preview-card .numeric-details
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.nft-preview-card .numeric-details .statistic
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+.nft-preview-card .numeric-details .statistic img
+{
+    margin-right: 0.5em;
+}
+
 .nft-preview-card .numeric-details .statistic.ethereum
 {
     color: hsl(178, 100%, 50%);
