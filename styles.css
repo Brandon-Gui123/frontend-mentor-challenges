@@ -17,4 +17,5 @@ body
 .nft-preview-card
 {
     background-color: hsl(216, 50%, 16%);
+    font-family: var(--card-font-family);
 }
