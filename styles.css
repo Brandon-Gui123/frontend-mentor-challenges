@@ -128,3 +128,8 @@ body
     margin-right: 1.25em;
     width: 2.5em;
 }
+
+.hoverable:hover
+{
+    color: hsl(178, 100%, 50%);
+}
