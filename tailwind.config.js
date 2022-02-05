@@ -1,9 +1,11 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
-        sans: 'Outfit, Verdana, Geneva, Tahoma, sans-serif'
+        sans: ['Outfit', ...defaultTheme.fontFamily.sans]
       }
     },
     colors: {
