@@ -18,11 +18,13 @@ body
 {
     background-color: hsl(216, 50%, 16%);
     font-family: var(--card-font-family);
+    font-size: 18px;
 }
 
 .nft-preview-card h2
 {
     color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
 }
 
 .nft-preview-card h2 + p
