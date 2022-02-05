@@ -96,6 +96,12 @@ body
     align-items: center;
     justify-content: center;
 }
+
+.nft-preview-card .nft-image:hover .view-indicator
+{
+    display: flex;
+}
+
 .nft-preview-card .nft-image .view-indicator img
 {
     width: 20%;
