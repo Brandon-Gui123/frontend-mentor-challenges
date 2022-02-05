@@ -19,3 +19,33 @@ body
     background-color: hsl(216, 50%, 16%);
     font-family: var(--card-font-family);
 }
+
+.nft-preview-card h2
+{
+    color: hsl(0, 0%, 100%);
+}
+
+.nft-preview-card h2 + p
+{
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-preview-card .numeric-details .statistic.ethereum
+{
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-preview-card .numeric-details .statistic.time-left
+{
+    color: hsl(215, 51%, 70%);
+}
+
+.creator
+{
+    color: hsl(215, 51%, 70%);
+}
+
+.creator .creator-name
+{
+    color: hsl(0, 0%, 100%)
+}
