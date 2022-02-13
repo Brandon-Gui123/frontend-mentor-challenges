@@ -617,6 +617,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.w-auto
+{
+  width: auto;
+}
+
 .grid-flow-col
 {
   grid-auto-flow: column;
@@ -842,6 +847,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:flex:hover
 {
   display: flex;
+}
+
+.hover\:text-cyan:hover
+{
+  --tw-text-opacity: 1;
+  color: hsl(178 100% 50% / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:flex
