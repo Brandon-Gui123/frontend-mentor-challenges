@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: ["*.{html,js}"],
   theme: {
@@ -11,6 +13,9 @@ module.exports = {
       'light': 300,
       'normal': 400,
       'bold': 600
+    },
+    fontFamily: {
+      sans: ['Outfit', ...defaultTheme.fontFamily.sans]
     }
   },
   plugins: [],
