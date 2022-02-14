@@ -484,6 +484,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(225 100% 94% / var(--tw-bg-opacity));
 }
 
+.bg-very-pale-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(225 100% 98% / var(--tw-bg-opacity));
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
