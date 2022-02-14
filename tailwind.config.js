@@ -13,6 +13,11 @@ module.exports = {
     },
     fontFamily: {
       sans: ["Red Hat Display", ...defaultTheme.fontFamily.sans]
+    },
+    fontWeight: {
+      'normal': 500,
+      'semibold': 700,
+      'bold': 900
     }
   },
   plugins: [],
