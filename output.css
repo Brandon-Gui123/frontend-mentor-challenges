@@ -622,3 +622,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+
+.text-dark-blue {
+  --tw-text-opacity: 1;
+  color: hsl(223 47% 23% / var(--tw-text-opacity));
+}
+
+.text-desaturated-blue {
+  --tw-text-opacity: 1;
+  color: hsl(224 23% 55% / var(--tw-text-opacity));
+}
