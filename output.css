@@ -474,6 +474,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -548,6 +563,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-bright-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(245 75% 52% / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .text-center {
