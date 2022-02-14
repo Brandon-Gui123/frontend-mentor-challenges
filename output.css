@@ -667,3 +667,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
+
+.hover\:decoration-bright-blue\/100:hover {
+  -webkit-text-decoration-color: hsl(245 75% 52% / 1);
+          text-decoration-color: hsl(245 75% 52% / 1);
+}
+
+.hover\:decoration-bright-blue\/50:hover {
+  -webkit-text-decoration-color: hsl(245 75% 52% / 0.5);
+          text-decoration-color: hsl(245 75% 52% / 0.5);
+}
+
+.hover\:decoration-bright-blue\/10:hover {
+  -webkit-text-decoration-color: hsl(245 75% 52% / 0.1);
+          text-decoration-color: hsl(245 75% 52% / 0.1);
+}
+
+.hover\:decoration-bright-blue\/0:hover {
+  -webkit-text-decoration-color: hsl(245 75% 52% / 0);
+          text-decoration-color: hsl(245 75% 52% / 0);
+}
