@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["*.{html,js}"],
   theme: {
@@ -8,6 +10,9 @@ module.exports = {
       'very-pale-blue': 'hsl(225, 100%, 98%)',
       'desaturated-blue': 'hsl(224, 23%, 55%)',
       'dark-blue': 'hsl(223, 47%, 23%)'
+    },
+    fontFamily: {
+      sans: ["Red Hat Display", ...defaultTheme.fontFamily.sans]
     }
   },
   plugins: [],
