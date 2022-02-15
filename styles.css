@@ -1,0 +1,66 @@
+@font-face 
+{
+    font-family: Outfit;
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+
+:root
+{
+    --card-font: Outfit, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
+    background-color: hsl(212, 45%, 89%);
+    margin: 0px;
+}
+
+section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.card
+{
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+    width: 350px;
+    height: 100%;
+    box-shadow: 0px 0px 24px #00000021;
+    font-family: var(--card-font);
+}
+
+.card img
+{
+    border-radius: 16px;
+    width: 100%;
+}
+
+.card .card-title
+{
+    font-weight: 800;
+    font-size: 2em;
+    color: hsl(218, 44%, 22%);
+}
+
+.card .card-description
+{
+    font-size: 1.25em;
+    color: hsl(220, 15%, 55%);
+}
+
+.credits
+{
+    font-family: var(--card-font);
+    background-color:hsl(0, 0%, 9%);
+    color:hsl(212, 45%, 89%);
+    padding: 0.5em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
