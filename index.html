@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
+
+  <title>Frontend Mentor | Order summary card</title>
+</head>
+
+<body class="bg-pale-blue">
+
+  <main class="flex items-center justify-center h-screen">
+    <article class="bg-white rounded-3xl w-[400px] shadow-lg shadow-desaturated-blue/10">
+      <img class="rounded-t-3xl w-full" src="images/illustration-hero.svg" />
+      <section class=p-6>
+        <h2 class="text-2xl font-bold text-center my-2 text-dark-blue">Order Summary</h2>
+
+        <p class="text-center my-4 text-desaturated-blue">
+          You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+
+        <div class="bg-[#f8f9fe] my-4 rounded-2xl flex items-center p-5">
+          <img src="images/icon-music.svg" />
+          <div class="ml-4">
+            <p class="font-semibold text-dark-blue">Annual Plan</p>
+            <p class="text-desaturated-blue">$59.99/year</p>
+          </div>
+          <p class="font-semibold ml-auto mr-1"><a href="#" class="text-bright-blue underline hover:decoration-bright-blue/0 hover:text-bright-blue-lighter transition-colors">Change</a></p>
+        </div>
+
+        <button type="submit" class="bg-bright-blue my-6 rounded-2xl text-center p-4 shadow-xl shadow-bright-blue/20 hover:bg-bright-blue-lighter w-full transition-colors">
+          <p class="font-semibold text-white">Proceed to Payment</p>
+        </button>
+
+        <div class="text-center">
+          <p class="font-semibold text-desaturated-blue"><a href="#" class="hover:text-dark-blue transition-colors">Cancel Order</a></p>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+
+</html>
