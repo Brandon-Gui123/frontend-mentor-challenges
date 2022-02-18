@@ -1,0 +1,14 @@
+Design considerations for desktop:
+    - Image should not appear stretched or squished (i.e. aspect ratio maintained at all times)
+        - If height of card changes, change the width of the image (and the card) to maintain aspect ratio
+        - If width of card changes w/o height changes, do not change the width of the image (allow left side of card to expand but fix the right side)
+
+Stuff to do:
+    [ ] Create HTML structure for the stats preview card component
+    * Figure out how to design the card as per the design considerations:
+        [ ] Which CSS properties do we need to implement? And on who?
+    * Statistics styling:
+        
+    * Misc:
+    [ ] Style text size
+    [ ] Style text colour

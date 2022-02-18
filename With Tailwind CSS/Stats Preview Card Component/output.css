@@ -517,8 +517,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
 .min-w-\[540px\] {
   min-width: 540px;
+}
+
+.min-w-\[1000px\] {
+  min-width: 1000px;
+}
+
+.min-w-\[1080px\] {
+  min-width: 1080px;
+}
+
+.max-w-\[60\%\] {
+  max-width: 60%;
+}
+
+.max-w-\[60vw\] {
+  max-width: 60vw;
+}
+
+.max-w-\[70vw\] {
+  max-width: 70vw;
 }
 
 .grow {
