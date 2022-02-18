@@ -517,6 +517,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .aspect-\[\] {
   aspect-ratio: ;
 }
@@ -756,5 +760,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:order-1 {
     order: 1;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 }
