@@ -774,6 +774,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .lg\:min-w-\[540px\] {
+    min-width: 540px;
+  }
+
+  .lg\:min-w-\[1080px\] {
+    min-width: 1080px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
