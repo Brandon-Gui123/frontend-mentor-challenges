@@ -480,6 +480,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.block {
+  display: block;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -487,4 +491,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-very-dark-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 47% 7% / var(--tw-bg-opacity));
+}
+
+.bg-dark-desaturated-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(244 38% 16% / var(--tw-bg-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.text-white\/75 {
+  color: hsl(0 0% 100% / 0.75);
+}
+
+.text-white\/60 {
+  color: hsl(0 0% 100% / 0.6);
+}
+
+.text-soft-violet {
+  --tw-text-opacity: 1;
+  color: hsl(277 64% 61% / var(--tw-text-opacity));
 }
