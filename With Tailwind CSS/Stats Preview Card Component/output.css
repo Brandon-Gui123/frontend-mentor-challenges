@@ -617,6 +617,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 3rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -808,6 +812,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:gap-12 {
+    gap: 3rem;
   }
 
   .lg\:p-12 {
