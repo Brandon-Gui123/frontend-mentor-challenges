@@ -480,6 +480,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.order-1 {
+  order: 1;
+}
+
+.order-first {
+  order: -9999;
+}
+
+.-order-1 {
+  order: -1;
+}
+
+.order-2 {
+  order: 2;
+}
+
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -725,4 +741,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mix-blend-luminosity {
   mix-blend-mode: luminosity;
+}
+
+@media (min-width: 768px) {
+  .md\:order-1 {
+    order: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:order-2 {
+    order: 2;
+  }
+
+  .lg\:order-1 {
+    order: 1;
+  }
 }
