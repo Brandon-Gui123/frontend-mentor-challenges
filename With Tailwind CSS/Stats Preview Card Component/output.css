@@ -514,6 +514,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(244 38% 16% / var(--tw-bg-opacity));
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
 .font-\[\'Lexend_Deca\'\] {
   font-family: 'Lexend Deca';
 }
