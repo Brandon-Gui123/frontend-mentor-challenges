@@ -12,6 +12,10 @@ module.exports = {
       "dark-desaturated-blue": "hsl(244, 38%, 16%)",
       "soft-violet": "hsl(277, 64%, 61%)",
       "white": "hsl(0, 0%, 100%)",
+    },
+    fontWeight: {
+      "normal": 400,
+      "bold": 700
     }
   },
   plugins: [],
