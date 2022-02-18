@@ -533,6 +533,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
+.max-h-\[70vh\] {
+  max-height: 70vh;
+}
+
+.max-h-\[90vh\] {
+  max-height: 90vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -567,6 +575,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[70vw\] {
   max-width: 70vw;
+}
+
+.max-w-\[50vw\] {
+  max-width: 50vw;
+}
+
+.max-w-\[80vw\] {
+  max-width: 80vw;
 }
 
 .grow {
@@ -635,6 +651,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-12 {
   padding: 3rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .text-center {
@@ -782,8 +802,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     min-width: 1080px;
   }
 
+  .lg\:max-w-\[70vw\] {
+    max-width: 70vw;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:p-12 {
+    padding: 3rem;
   }
 
   .lg\:text-left {
