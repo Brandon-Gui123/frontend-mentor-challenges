@@ -630,6 +630,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-right-radius: 0.5rem;
 }
 
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
 .bg-very-dark-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 47% 7% / var(--tw-bg-opacity));
@@ -816,6 +821,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:gap-12 {
     gap: 3rem;
+  }
+
+  .lg\:rounded-r-lg {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .lg\:rounded-tl-none {
+    border-top-left-radius: 0px;
   }
 
   .lg\:p-12 {
