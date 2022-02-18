@@ -38,8 +38,8 @@ Mobile:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Brandon-Gui123/frontend-mentor-challenges/tree/main/With%20Tailwind%20CSS/Stats%20Preview%20Card%20Component](https://github.com/Brandon-Gui123/frontend-mentor-challenges/tree/main/With%20Tailwind%20CSS/Stats%20Preview%20Card%20Component)
+- Live Site URL: [https://brandon-gui123.github.io/frontend-mentor-challenges/With%20Tailwind%20CSS/Stats%20Preview%20Card%20Component/index.html](https://brandon-gui123.github.io/frontend-mentor-challenges/With%20Tailwind%20CSS/Stats%20Preview%20Card%20Component/index.html)
 
 ## My process
 
