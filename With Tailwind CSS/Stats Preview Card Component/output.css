@@ -501,6 +501,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.aspect-\[\] {
+  aspect-ratio: ;
+}
+
+.aspect-\[540\/446\] {
+  aspect-ratio: 540 / 446;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.min-w-\[540px\] {
+  min-width: 540px;
+}
+
 .grow {
   flex-grow: 1;
 }
