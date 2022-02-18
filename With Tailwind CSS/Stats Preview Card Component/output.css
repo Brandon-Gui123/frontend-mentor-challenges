@@ -480,10 +480,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.block {
-  display: block;
-}
-
 .grow {
   flex-grow: 1;
 }
@@ -498,9 +494,50 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(244 38% 16% / var(--tw-bg-opacity));
 }
 
+.font-\[\'Lexend_Deca\'\] {
+  font-family: 'Lexend Deca';
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.text-soft-violet {
+  --tw-text-opacity: 1;
+  color: hsl(277 64% 61% / var(--tw-text-opacity));
 }
 
 .text-white\/75 {
@@ -509,9 +546,4 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-white\/60 {
   color: hsl(0 0% 100% / 0.6);
-}
-
-.text-soft-violet {
-  --tw-text-opacity: 1;
-  color: hsl(277 64% 61% / var(--tw-text-opacity));
 }
