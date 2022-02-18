@@ -529,6 +529,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   aspect-ratio: 540 / 446;
 }
 
+.aspect-\[654\/480\] {
+  aspect-ratio: 654 / 480;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -541,6 +545,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-height: 90vh;
 }
 
+.max-h-\[\] {
+  max-height: ;
+}
+
+.max-h-\[480px\] {
+  max-height: 480px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -551,6 +563,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[60\%\] {
   width: 60%;
+}
+
+.w-\[80vw\] {
+  width: 80vw;
 }
 
 .min-w-\[540px\] {
@@ -583,6 +599,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[80vw\] {
   max-width: 80vw;
+}
+
+.max-w-\[640px\] {
+  max-width: 640px;
 }
 
 .grow {
