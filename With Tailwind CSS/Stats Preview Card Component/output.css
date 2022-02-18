@@ -637,6 +637,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 3rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-\[\'Lexend_Deca\'\] {
   font-family: 'Lexend Deca';
 }
@@ -772,5 +776,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 }
