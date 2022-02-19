@@ -474,12 +474,160 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
 
 .bottom-\[52px\] {
   bottom: 52px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.-top-1 {
+  top: -0.25rem;
+}
+
+.-top-1\/2 {
+  top: -50%;
+}
+
+.-left-1\/2 {
+  left: -50%;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.-top-\[50vh\] {
+  top: -50vh;
+}
+
+.-left-\[50vw\] {
+  left: -50vw;
+}
+
+.top-\[50vh\] {
+  top: 50vh;
+}
+
+.left-\[50vh\] {
+  left: 50vh;
+}
+
+.left-\[100vh\] {
+  left: 100vh;
+}
+
+.-left-\[100vw\] {
+  left: -100vw;
+}
+
+.right-\[100vw\] {
+  right: 100vw;
+}
+
+.left-\[100vw\] {
+  left: 100vw;
+}
+
+.-right-\[50vw\] {
+  right: -50vw;
+}
+
+.right-\[50vw\] {
+  right: 50vw;
+}
+
+.-bottom-\[50vh\] {
+  bottom: -50vh;
+}
+
+.left-\[50vw\] {
+  left: 50vw;
+}
+
+.-top-\[50\%\] {
+  top: -50%;
+}
+
+.-top-\[50\] {
+  top: -50;
+}
+
+.-top-\[300px\] {
+  top: -300px;
+}
+
+.right-\[300px\] {
+  right: 300px;
+}
+
+.-bottom-\[300px\] {
+  bottom: -300px;
+}
+
+.left-\[300px\] {
+  left: 300px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.-top-0 {
+  top: -0px;
+}
+
+.-top-\[256px\] {
+  top: -256px;
+}
+
+.-left-\[256px\] {
+  left: -256px;
+}
+
+.bottom-\[256px\] {
+  bottom: 256px;
+}
+
+.right-\[256px\] {
+  right: 256px;
+}
+
+.-bottom-\[256px\] {
+  bottom: -256px;
+}
+
+.-right-\[256px\] {
+  right: -256px;
+}
+
+.-z-0 {
+  z-index: 0;
+}
+
+.-z-\[1\] {
+  z-index: -1;
 }
 
 .my-2 {
@@ -527,6 +675,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-\[512px\] {
+  width: 512px;
+}
+
+.w-\[1024px\] {
+  width: 1024px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[700px\] {
+  width: 700px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -545,6 +717,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-clip {
+  overflow: clip;
 }
 
 .rounded-full {
