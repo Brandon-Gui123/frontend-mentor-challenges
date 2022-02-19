@@ -491,6 +491,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: hsl(0 0% 100% / var(--tw-border-opacity));
 }
 
+.bg-dark-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(185 75% 39% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
