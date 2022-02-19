@@ -12,6 +12,10 @@ module.exports = {
     },
     fontFamily: {
       "sans": ["Kumbh Sans", ...defaultTheme.fontFamily.sans]
+    },
+    fontWeight: {
+      "normal": 400,
+      "bold": 700
     }
   },
   plugins: [],
