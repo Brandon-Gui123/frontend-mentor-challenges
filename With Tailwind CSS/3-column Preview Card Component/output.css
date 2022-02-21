@@ -540,6 +540,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
+.border-very-light-gray {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 95% / var(--tw-border-opacity));
+}
+
 .bg-bright-orange {
   --tw-bg-opacity: 1;
   background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
@@ -644,6 +653,34 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-very-dark-cyan {
   --tw-text-opacity: 1;
   color: hsl(179 100% 13% / var(--tw-text-opacity));
+}
+
+.hover\:m-10:hover {
+  margin: 2.5rem;
+}
+
+.hover\:bg-bright-orange:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-dark-cyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(184 100% 22% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-very-dark-cyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
+}
+
+.hover\:bg-none:hover {
+  background-image: none;
+}
+
+.hover\:text-very-light-gray:hover {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 95% / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
