@@ -14,6 +14,10 @@ module.exports = {
     fontFamily: {
       'sans': ['Lexend Deca', ...defaultTheme.fontFamily.sans],
       'display': ['Big Shoulders Display', ...defaultTheme.fontFamily.sans] // Fallback to sans font family if this display font fails to load
+    },
+    fontWeight: {
+      'normal': 400,
+      'bold': 700
     }
   },
   plugins: [],
