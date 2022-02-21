@@ -497,6 +497,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
+.max-w-screen-xl {
+  max-width: 1280px;
+}
+
+.max-w-screen-md {
+  max-width: 768px;
+}
+
+.max-w-prose {
+  max-width: 65ch;
+}
+
+.max-w-\[90\%\] {
+  max-width: 90%;
+}
+
 .items-center {
   align-items: center;
 }
@@ -573,6 +589,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-center {
