@@ -480,18 +480,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .mb-6 {
@@ -522,10 +513,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .overflow-hidden {
@@ -569,18 +556,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
 .p-12 {
   padding: 3rem;
 }
@@ -616,11 +591,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -663,10 +633,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
-.hover\:m-10:hover {
-  margin: 2.5rem;
-}
-
 .hover\:bg-bright-orange:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
@@ -680,10 +646,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-very-dark-cyan:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
-}
-
-.hover\:bg-none:hover {
-  background-image: none;
 }
 
 .hover\:text-very-light-gray:hover {
@@ -700,40 +662,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 66.666667%;
   }
 
-  .lg\:min-h-\[1000px\] {
-    min-height: 1000px;
-  }
-
-  .lg\:min-h-\[\] {
-    min-height: ;
-  }
-
-  .lg\:min-h-\[720px\] {
-    min-height: 720px;
-  }
-
   .lg\:min-h-\[400px\] {
     min-height: 400px;
   }
 
-  .lg\:w-3\/4 {
-    width: 75%;
-  }
-
   .lg\:w-2\/3 {
     width: 66.666667%;
-  }
-
-  .lg\:w-3\/5 {
-    width: 60%;
-  }
-
-  .lg\:w-\[\] {
-    width: ;
-  }
-
-  .lg\:w-\[65\%\] {
-    width: 65%;
   }
 
   .lg\:flex-row {
