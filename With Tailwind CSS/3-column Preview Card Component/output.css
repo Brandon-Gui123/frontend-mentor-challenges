@@ -495,6 +495,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
 }
 
+.bg-transparent-white {
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.bg-very-light-gray {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 95% / var(--tw-bg-opacity));
+}
+
+.text-center {
+  text-align: center;
+}
+
 .font-display {
   font-family: Big Shoulders Display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -524,4 +537,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-very-light-gray {
   --tw-text-opacity: 1;
   color: hsl(0 0% 95% / var(--tw-text-opacity));
+}
+
+.text-bright-orange {
+  --tw-text-opacity: 1;
+  color: hsl(31 77% 52% / var(--tw-text-opacity));
+}
+
+.text-dark-cyan {
+  --tw-text-opacity: 1;
+  color: hsl(184 100% 22% / var(--tw-text-opacity));
+}
+
+.text-very-dark-cyan {
+  --tw-text-opacity: 1;
+  color: hsl(179 100% 13% / var(--tw-text-opacity));
 }
