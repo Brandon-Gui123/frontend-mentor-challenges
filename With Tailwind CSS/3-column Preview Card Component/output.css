@@ -494,3 +494,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
 }
+
+.text-transparent-white {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.text-very-light-gray {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 95% / var(--tw-text-opacity));
+}
