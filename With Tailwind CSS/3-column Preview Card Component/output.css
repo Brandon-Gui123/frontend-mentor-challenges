@@ -513,6 +513,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 90%;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
