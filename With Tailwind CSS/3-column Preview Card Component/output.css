@@ -651,7 +651,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
+  .lg\:w-3 {
+    width: 0.75rem;
+  }
+
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
   }
 }
