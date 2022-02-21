@@ -479,3 +479,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.bg-bright-orange {
+  --tw-bg-opacity: 1;
+  background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
+}
+
+.bg-dark-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(184 100% 22% / var(--tw-bg-opacity));
+}
+
+.bg-very-dark-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
+}
