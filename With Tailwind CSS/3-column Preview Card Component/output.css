@@ -504,6 +504,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(0 0% 95% / var(--tw-bg-opacity));
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
