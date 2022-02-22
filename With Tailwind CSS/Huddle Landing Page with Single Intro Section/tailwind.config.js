@@ -10,7 +10,8 @@ module.exports = {
       "white": "#ffffff"
     },
     fontFamily: {
-      "sans": ["Open Sans", ...defaultTheme.fontFamily.sans]
+      "sans": ["Open Sans", ...defaultTheme.fontFamily.sans],
+      "title": ["Poppins", ...defaultTheme.fontFamily.sans]
     }
   },
   plugins: [],
