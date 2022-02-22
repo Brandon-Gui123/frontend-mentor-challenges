@@ -12,6 +12,10 @@ module.exports = {
     fontFamily: {
       "sans": ["Open Sans", ...defaultTheme.fontFamily.sans],
       "title": ["Poppins", ...defaultTheme.fontFamily.sans]
+    },
+    fontWeight: {
+      "normal": 400,
+      "bold": 600
     }
   },
   plugins: [],
