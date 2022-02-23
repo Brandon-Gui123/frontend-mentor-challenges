@@ -841,6 +841,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 16.666667%;
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:p-16 {
     padding: 4rem;
   }
