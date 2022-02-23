@@ -849,6 +849,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: flex-start;
   }
 
+  .lg\:gap-4 {
+    gap: 1rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
+
   .lg\:p-16 {
     padding: 4rem;
   }
