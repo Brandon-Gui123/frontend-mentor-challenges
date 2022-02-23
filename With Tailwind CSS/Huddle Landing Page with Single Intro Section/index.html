@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
+
+  <script src="https://kit.fontawesome.com/9624c36e3b.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+</head>
+<body class="bg-violet">
+
+  <!-- Background image that only occupies the top -->
+  <img class="lg:hidden absolute w-full -z-10" src="images/bg-mobile.svg" alt="" aria-hidden="true"/>
+  
+  <!-- Desktop background image that occupies the entire webpage -->
+  <img class="hidden lg:block absolute h-full -z-10 object-cover" src="images/bg-desktop.svg" alt="" aria-hidden="true" />
+
+  <header class="p-8">
+    <a href="index.html">
+      <img class="w-2/5 lg:w-1/6" src="images/logo.svg" alt="Huddle logo" />
+    </a>
+  </header>
+
+  <main class="px-8 pt-4">
+
+    <div class="flex flex-col lg:flex-row lg:gap-8">
+      <img src="images/illustration-mockups.svg" alt="" />
+
+      <div>
+        <h1 class="text-white text-center lg:text-left font-title font-bold text-2xl lg:text-4xl lg:leading-relaxed mt-12 mb-4">Build The Community Your Fans Will Love</h1>
+        <p class="text-white text-center lg:text-left font-sans m-1">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+          Create connections with your users as you engage in genuine discussion.
+        </p>
+        <div class="flex justify-center lg:justify-start mt-6 mb-14">
+          <a href="#" class="">
+            <p class="bg-white text-violet hover:bg-soft-magenta hover:text-white transition-colors text-xs w-fit px-16 py-3 rounded-full font-title drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)]">Register</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="px-8 pb-8">
+    <div class="flex items-center justify-center lg:justify-end gap-4 ">
+      <a href="#" aria-label="Go to Huddle's Facebook page">
+        <div
+          class="border-white border-2 rounded-full flex items-center justify-center p-2 w-8 h-8 text-white hover:border-soft-magenta hover:text-soft-magenta transition-colors">
+          <i class="fa-brands fa-facebook-f"></i>
+        </div>
+      </a>
+      <a href="#" aria-label="Go to Huddle's Twitter page">
+        <div
+          class="border-white border-2 rounded-full flex items-center justify-center p-2 w-8 h-8 text-white hover:border-soft-magenta hover:text-soft-magenta transition-colors">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </a>
+      <a href="#" aria-label="Go to Huddle's Instagram page">
+        <div
+          class="border-white border-2 rounded-full flex items-center justify-center p-2 w-8 h-8 text-white hover:border-soft-magenta hover:text-soft-magenta transition-colors">
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
