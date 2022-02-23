@@ -621,6 +621,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 2rem;
 }
 
+.w-\[512px\] {
+  width: 512px;
+}
+
+.w-\[256px\] {
+  width: 256px;
+}
+
+.w-\[128px\] {
+  width: 128px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -822,4 +834,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-violet:hover {
   --tw-text-opacity: 1;
   color: hsl(257 40% 49% / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-1\/6 {
+    width: 16.666667%;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
+  }
+
+  .lg\:p-12 {
+    padding: 3rem;
+  }
 }
