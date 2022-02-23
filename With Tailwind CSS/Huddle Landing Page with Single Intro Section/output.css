@@ -799,6 +799,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
+.hover\:border-soft-magenta:hover {
+  --tw-border-opacity: 1;
+  border-color: hsl(300 69% 71% / var(--tw-border-opacity));
+}
+
 .hover\:bg-soft-magenta:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(300 69% 71% / var(--tw-bg-opacity));
@@ -807,4 +812,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-soft-magenta:hover {
+  --tw-text-opacity: 1;
+  color: hsl(300 69% 71% / var(--tw-text-opacity));
+}
+
+.hover\:text-violet:hover {
+  --tw-text-opacity: 1;
+  color: hsl(257 40% 49% / var(--tw-text-opacity));
 }
