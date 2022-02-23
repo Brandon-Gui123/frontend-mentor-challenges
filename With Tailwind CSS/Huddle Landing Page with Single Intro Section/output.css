@@ -559,6 +559,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
@@ -577,6 +581,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-screen {
   height: 100vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-\[105\%\] {
+  height: 105%;
 }
 
 .w-fit {
@@ -633,6 +649,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 128px;
 }
 
+.w-auto {
+  width: auto;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -655,6 +683,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-4 {
   gap: 1rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-full {
@@ -682,6 +714,38 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .to-white {
   --tw-gradient-to: #ffffff;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-none {
+  -o-object-fit: none;
+     object-fit: none;
 }
 
 .p-8 {
@@ -837,6 +901,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:w-1\/6 {
     width: 16.666667%;
   }
@@ -855,6 +927,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:gap-8 {
     gap: 2rem;
+  }
+
+  .lg\:bg-\[url\(\'images\/bg-desktop\.svg\'\)\] {
+    background-image: url('images/bg-desktop.svg');
   }
 
   .lg\:p-16 {

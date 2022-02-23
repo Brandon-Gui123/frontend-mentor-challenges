@@ -15,7 +15,10 @@
 <body class="bg-violet">
 
   <!-- Background image that only occupies the top -->
-  <img class="absolute w-full -z-10" src="images/bg-mobile.svg" alt="" aria-hidden="true"/>
+  <img class="lg:hidden absolute w-full -z-10" src="images/bg-mobile.svg" alt="" aria-hidden="true"/>
+  
+  <!-- Desktop background image that occupies the entire webpage -->
+  <img class="hidden lg:block absolute h-[105%] -z-10 object-cover" src="images/bg-desktop.svg" alt="" aria-hidden="true" />
 
   <header class="p-8 lg:p-12">
     <a href="index.html">
