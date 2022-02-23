@@ -845,11 +845,19 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
   .lg\:p-16 {
     padding: 4rem;
   }
 
   .lg\:p-12 {
     padding: 3rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 }
