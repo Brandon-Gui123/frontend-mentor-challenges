@@ -12,6 +12,10 @@ module.exports = {
     },
     fontFamily: {
       "sans": ["Karla", ...defaultTheme.fontFamily.sans]
+    },
+    fontWeight: {
+      "normal": 400,
+      "bold": 700
     }
   },
   plugins: [],
