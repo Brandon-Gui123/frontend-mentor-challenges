@@ -474,7 +474,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.bg-light-gray {
+  --tw-bg-opacity: 1;
+  background-color: hsl(204 43% 93% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-cyan {
   --tw-bg-opacity: 1;
   background-color: hsl(179 62% 43% / var(--tw-bg-opacity));
+}
+
+.bg-slightly-light-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(179 47% 52% / var(--tw-bg-opacity));
 }
