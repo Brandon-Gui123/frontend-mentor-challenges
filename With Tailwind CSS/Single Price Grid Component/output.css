@@ -823,6 +823,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 100%;
   }
 
+  .lg\:max-h-\[60\%\] {
+    max-height: 60%;
+  }
+
+  .lg\:min-h-\[60\%\] {
+    min-height: 60%;
+  }
+
   .lg\:w-\[45\%\] {
     width: 45%;
   }
