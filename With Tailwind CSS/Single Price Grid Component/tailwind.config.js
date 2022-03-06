@@ -9,7 +9,8 @@ module.exports = {
       "bright-yellow": "hsl(71, 73%, 54%)",
       "light-gray": "hsl(204, 43%, 93%)",
       "grayish-blue": "hsl(218, 22%, 67%)",
-      "white": "#ffffff"
+      "white": "#ffffff",
+      "slightly-light-cyan": "hsl(179, 47%, 52%)",
     },
     fontFamily: {
       "sans": ["Karla", ...defaultTheme.fontFamily.sans]
