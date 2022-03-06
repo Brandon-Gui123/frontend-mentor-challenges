@@ -815,12 +815,36 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 60%;
   }
 
+  .lg\:h-1\/2 {
+    height: 50%;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
   .lg\:w-\[45\%\] {
     width: 45%;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:flex-grow {
+    flex-grow: 1;
+  }
+
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:items-stretch {
+    align-items: stretch;
   }
 
   .lg\:justify-center {
