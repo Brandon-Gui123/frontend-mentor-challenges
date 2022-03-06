@@ -517,6 +517,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -716,6 +720,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-white\/40 {
   color: rgb(255 255 255 / 0.4);
+}
+
+.text-light-gray\/20 {
+  color: hsl(204 43% 93% / 0.2);
+}
+
+.text-light-gray\/40 {
+  color: hsl(204 43% 93% / 0.4);
+}
+
+.text-light-gray\/60 {
+  color: hsl(204 43% 93% / 0.6);
 }
 
 .shadow {
