@@ -39,8 +39,8 @@ Mobile (width of 375px):
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://github.com/Brandon-Gui123/frontend-mentor-challenges/tree/main/With%20Tailwind%20CSS/Single%20Price%20Grid%20Component)
+- [Live Site](https://brandon-gui123.github.io/frontend-mentor-challenges/With%20Tailwind%20CSS/Single%20Price%20Grid%20Component/index.html)
 
 ## My process
 
