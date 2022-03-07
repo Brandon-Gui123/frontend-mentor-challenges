@@ -44,6 +44,7 @@ body
     color: hsl(215, 51%, 70%);
     line-height: 1.75;
     margin-bottom: 0.05em;
+    font-weight: 300;
 }
 
 /* Statistics */
