@@ -43,6 +43,7 @@ body
 {
     color: hsl(215, 51%, 70%);
     line-height: 1.75;
+    margin-bottom: 0.05em;
 }
 
 /* Statistics */
@@ -51,4 +52,42 @@ body
 {
     display: flex;
     justify-content: space-between;
+
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.statistics .eth-stats
+{
+    display: flex;
+    align-items: center;
+}
+
+.statistics .time-stats
+{
+    display: flex;
+    align-items: center;
+}
+
+.statistics .eth-icon
+{
+    margin-right: 5px;
+}
+
+.statistics .eth-count
+{
+    color: hsl(178, 100%, 50%);
+    display: inline;
+    font-weight: 600;
+}
+
+.statistics .clock-icon
+{
+    margin-right: 5px;
+}
+
+.statistics .time-left
+{
+    color: hsl(215, 51%, 70%);
+    display: inline;
+    font-weight: 600;
 }
