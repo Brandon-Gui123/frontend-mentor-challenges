@@ -90,6 +90,11 @@ body
     letter-spacing: 0.05em;
 }
 
+.hoverable-link
+{
+    color: hsl(0, 0%, 100%);
+}
+
 .hoverable-link:hover
 {
     color: hsl(178, 100%, 50%);
