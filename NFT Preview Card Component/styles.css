@@ -17,6 +17,12 @@ figure
     padding: 0;
 }
 
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
 /* End of reset styles */
 
 body
@@ -82,6 +88,11 @@ body
     color: hsl(0, 0%, 100%);
     font-size: 1.3em;
     letter-spacing: 0.05em;
+}
+
+.hoverable-link:hover
+{
+    color: hsl(178, 100%, 50%);
 }
 
 .nft-card-description
