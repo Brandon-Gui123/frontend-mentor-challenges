@@ -40,6 +40,34 @@ body
     padding: 3.6em 1em;
 }
 
+/* Tablet screen sizes and above */
+@media only screen and (min-width: 768px)
+{
+    .nft-card-container
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0;
+        height: 100vh;
+    }
+
+    .nft-card
+    {
+        width: 40%;
+    }
+}
+
+/* Laptop screen sizes and above */
+@media only screen and (min-width: 1024px)
+{
+    .nft-card
+    {
+        width: 20%;
+    }
+}
+
 .nft-card
 {
     background-color: hsl(216, 50%, 16%);
