@@ -23,6 +23,8 @@ body
 {
     background-color: hsl(216, 50%, 16%);
     padding: 1.5em;
+
+    font-family: var(--card-font-family);
 }
 
 .nft-card-image
@@ -33,9 +35,12 @@ body
 .nft-card-heading
 {
     color: hsl(0, 0%, 100%);
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
 }
 
 .nft-card-description
 {
     color: hsl(215, 51%, 70%);
+    line-height: 1.75;
 }
