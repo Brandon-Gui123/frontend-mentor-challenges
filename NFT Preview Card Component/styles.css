@@ -59,6 +59,14 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* The view icon and its background shall only be shown when it is hovered  */
+    opacity: 0;
+}
+
+.nft-card-image-view:hover
+{
+    opacity: 100;
 }
 
 .nft-card-image
