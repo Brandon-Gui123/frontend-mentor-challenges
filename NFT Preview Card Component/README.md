@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of own website solution](images/screenshot.png)
+![Screenshot of own website solution](images/desktop-screenshot.png)
 
 ### Links
 
