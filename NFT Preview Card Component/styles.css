@@ -23,6 +23,11 @@ a
     color: inherit;
 }
 
+body
+{
+    margin: 0;
+}
+
 /* End of reset styles */
 
 body
