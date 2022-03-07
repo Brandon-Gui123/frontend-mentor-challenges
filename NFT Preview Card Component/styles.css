@@ -16,13 +16,18 @@ body
 
 .nft-card-container
 {
-    padding: 5em 2em;
+    padding: 3.6em 1em;
 }
 
 .nft-card
 {
     background-color: hsl(216, 50%, 16%);
-    padding: 2em;
+    padding: 1.5em;
+}
+
+.nft-card-image
+{
+    width: 100%;
 }
 
 .nft-card-heading
