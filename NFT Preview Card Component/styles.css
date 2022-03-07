@@ -68,6 +68,8 @@ body
 
     /* The view icon and its background shall only be shown when it is hovered  */
     opacity: 0;
+
+    transition: opacity 0.1s ease 0s;
 }
 
 .nft-card-image-view:hover
@@ -93,6 +95,8 @@ body
 .hoverable-link
 {
     color: hsl(0, 0%, 100%);
+
+    transition: color 0.1s ease 0s;
 }
 
 .hoverable-link:hover
