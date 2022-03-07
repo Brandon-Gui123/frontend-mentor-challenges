@@ -19,3 +19,12 @@ body
     background-color: hsl(216, 50%, 16%);
 }
 
+.nft-card-heading
+{
+    color: hsl(0, 0%, 100%);
+}
+
+.nft-card-description
+{
+    color: hsl(215, 51%, 70%);
+}
