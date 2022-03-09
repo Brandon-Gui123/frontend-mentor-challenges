@@ -524,6 +524,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-desaturated-red\/50 {
   border-color: hsl(0 36% 70% / 0.5);
 }
@@ -736,6 +740,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-brightness: brightness(.5);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.focus\:border-dark-grayish-red:focus {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 6% 24% / var(--tw-border-opacity));
+}
+
+.focus\:border-soft-red:focus {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 93% 68% / var(--tw-border-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.active\:border-dark-grayish-red:active {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 6% 24% / var(--tw-border-opacity));
 }
 
 .active\:brightness-110:active {

@@ -31,7 +31,16 @@
 
     <form class="px-8" action="">
       <div class="relative">
-        <input class="border-desaturated-red/50 border-[1px] rounded-full bg-desaturated-red bg-opacity-0 px-5 py-3 placeholder:text-desaturated-red/50 w-full text-sm" type="email" placeholder="Email Address"/>
+        <!-- 
+          The focus:outline-none removes the border that Chrome gives when a text field is focused.
+          We don't need that since we already have our own border that changes when the field is focused.
+        -->
+        <input class="border-desaturated-red/50 border-[1px] rounded-full bg-desaturated-red bg-opacity-0 px-5 py-3 placeholder:text-desaturated-red/50 w-full text-sm 
+                      focus:border-dark-grayish-red focus:outline-none"
+               type="email"
+               placeholder="Email Address"
+        />
+
         <button class="bg-gradient-to-br from-[#f8bfbf] to-[#ee8c8c] bg-no-repeat bg-center rounded-full h-full px-7 absolute right-0 shadow-lg shadow-desaturated-red/50 hover:brightness-125 transition-[filter]" type="submit">
           <img src="images/icon-arrow.svg" alt="Submit"/>
         </button>
