@@ -18,6 +18,11 @@ module.exports = {
     },
     fontFamily: {
       "sans": [ "Josefin Sans", ...defaultTheme.fontFamily.sans ]
+    },
+    fontWeight: {
+      "light": 300,
+      "normal": 400,
+      "semibold": 600
     }
   },
   plugins: [],
