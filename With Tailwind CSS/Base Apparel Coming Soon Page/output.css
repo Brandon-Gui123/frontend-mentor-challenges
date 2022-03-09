@@ -538,6 +538,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.h-min {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-\[32\%\] {
   width: 32%;
 }
@@ -561,6 +581,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-desaturated-red {
   --tw-border-opacity: 1;
   border-color: hsl(0 36% 70% / var(--tw-border-opacity));
+}
+
+.border-dark-grayish-red {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 6% 24% / var(--tw-border-opacity));
+}
+
+.border-desaturated-red\/50 {
+  border-color: hsl(0 36% 70% / 0.5);
 }
 
 .bg-white {
