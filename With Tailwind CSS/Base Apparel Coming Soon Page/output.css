@@ -773,6 +773,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-template-columns: 1.5fr 1fr;
   }
 
+  .lg\:grid-cols-\[1\.25fr_1fr\] {
+    grid-template-columns: 1.25fr 1fr;
+  }
+
   .lg\:grid-rows-\[1fr_3fr\] {
     grid-template-rows: 1fr 3fr;
   }
