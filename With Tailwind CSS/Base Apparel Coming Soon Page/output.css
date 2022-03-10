@@ -1023,6 +1023,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-template-columns: 0.1fr 1fr 1fr 1fr;
   }
 
+  .lg\:grid-cols-\[1fr_1fr\] {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .lg\:grid-cols-\[2fr_1fr\] {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .lg\:grid-cols-\[1\.5fr_1fr\] {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
   .lg\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
