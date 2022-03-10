@@ -3,7 +3,11 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "gradient-with-desktop-pattern": "url('images/bg-pattern-desktop.svg'), linear-gradient(to bottom right, var(--tw-gradient-stops))"
+      }
+    },
     colors: {
       // Primary
       "desaturated-red": "hsl(0, 36%, 70%)",
