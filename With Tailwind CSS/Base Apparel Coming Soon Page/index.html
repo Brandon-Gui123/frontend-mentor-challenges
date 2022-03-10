@@ -31,13 +31,32 @@
 
     <form class="px-8" action="">
       <div class="relative">
-        <input class="border-desaturated-red/50 border-[1px] rounded-full bg-desaturated-red bg-opacity-0 px-5 py-3 placeholder:text-desaturated-red/50 w-full text-sm" type="email" placeholder="Email Address"/>
-        <button class="bg-gradient-to-br from-[#f8bfbf] to-[#ee8c8c] bg-no-repeat bg-center rounded-full h-full px-7 absolute right-0 shadow-lg shadow-desaturated-red/50 hover:brightness-125 transition-[filter]" type="submit">
-          <img src="images/icon-arrow.svg" alt="Submit"/>
-        </button>
+        <!-- 
+          The focus:outline-none removes the border that Chrome gives when a text field is focused.
+          We don't need that since we already have our own border that changes when the field is focused.
+        -->
+        <input class="border-desaturated-red/50 border-[1px] rounded-full bg-desaturated-red bg-opacity-0 px-5 py-3 placeholder:text-desaturated-red/50 w-full text-sm 
+                      focus:border-dark-grayish-red focus:outline-none
+                      invalid:border-soft-red"
+               type="email"
+               placeholder="Email Address"
+               oninput="emailFieldOnInput(this)"
+        />
+
+        <div class="absolute h-full flex items-center justify-end gap-4 top-0 right-0">
+          <img id="email-field-error-icon" class="hidden" src="images/icon-error.svg" alt="" />
+          
+          <button class="bg-gradient-to-br from-[#f8bfbf] to-[#ee8c8c] bg-no-repeat bg-center rounded-full h-full px-7 shadow-lg shadow-desaturated-red/50 hover:brightness-125 transition-[filter]" type="submit">
+            <img src="images/icon-arrow.svg" alt="Submit"/>
+          </button>
+        </div>
       </div>
+
+      <p id="email-field-error-text" class="text-soft-red text-sm py-3 pl-5 hidden">Please enter a valid email address</p>
     </form>
   </main>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
