@@ -769,6 +769,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: grid;
   }
 
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:grid-cols-\[1\.5fr_1fr\] {
     grid-template-columns: 1.5fr 1fr;
   }
@@ -777,8 +785,46 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-template-columns: 1.25fr 1fr;
   }
 
+  .lg\:grid-cols-\[1fr_auto\] {
+    grid-template-columns: 1fr auto;
+  }
+
+  .lg\:grid-cols-\[auto_auto\] {
+    grid-template-columns: auto auto;
+  }
+
+  .lg\:grid-cols-\[min_auto\] {
+    grid-template-columns: min auto;
+  }
+
+  .lg\:grid-cols-\[minw_auto\] {
+    grid-template-columns: minw auto;
+  }
+
+  .lg\:grid-cols-\[min-_auto\] {
+    grid-template-columns: min- auto;
+  }
+
+  .lg\:grid-cols-\[min-content_auto\] {
+    grid-template-columns: -webkit-min-content auto;
+    grid-template-columns: min-content auto;
+  }
+
+  .lg\:grid-cols-\[fit-content_auto\] {
+    grid-template-columns: -webkit-fit-content auto;
+    grid-template-columns: fit-content auto;
+  }
+
   .lg\:grid-rows-\[1fr_3fr\] {
     grid-template-rows: 1fr 3fr;
+  }
+
+  .lg\:grid-rows-\[auto\] {
+    grid-template-rows: auto;
+  }
+
+  .lg\:grid-rows-\[auto_auto\] {
+    grid-template-rows: auto auto;
   }
 
   .lg\:bg-opacity-0 {
@@ -787,6 +833,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:bg-gradient-with-desktop-pattern {
     background-image: url('images/bg-pattern-desktop.svg'), linear-gradient(to bottom right, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+
+  .lg\:bg-contain {
+    background-size: contain;
+  }
+
+  .lg\:bg-auto {
+    background-size: auto;
   }
 
   .lg\:bg-no-repeat {
