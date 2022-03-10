@@ -492,6 +492,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -896,4 +900,112 @@ Ensure the default browser behavior of the `hidden` attribute.
 .active\:brightness-110:active {
   --tw-brightness: brightness(1.1);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media (min-width: 768px) {
+  .md\:row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:col-start-2 {
+    grid-column-start: 2;
+  }
+
+  .lg\:col-start-4 {
+    grid-column-start: 4;
+  }
+
+  .lg\:row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+
+  .lg\:row-start-2 {
+    grid-row-start: 2;
+  }
+
+  .lg\:grid {
+    display: grid;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-\[2\] {
+    grid-template-columns: 2;
+  }
+
+  .lg\:grid-cols-\[1fr_1fr_1fr_1fr\] {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .lg\:grid-cols-\[1fr_2fr_1fr_1fr\] {
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+  }
+
+  .lg\:grid-cols-\[1fr_2fr_1fr_2fr\] {
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+  }
+
+  .lg\:grid-cols-\[1fr_1fr_1fr_2fr\] {
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+  }
+
+  .lg\:grid-cols-\[0\.1fr_1fr_1fr_1fr\] {
+    grid-template-columns: 0.1fr 1fr 1fr 1fr;
+  }
+
+  .lg\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-rows-\[200px\] {
+    grid-template-rows: 200px;
+  }
+
+  .lg\:grid-rows-\[80px_200px\] {
+    grid-template-rows: 80px 200px;
+  }
+
+  .lg\:grid-rows-\[1fr_1fr\] {
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .lg\:grid-rows-\[1fr_4fr\] {
+    grid-template-rows: 1fr 4fr;
+  }
+
+  .lg\:grid-rows-\[1fr_3fr\] {
+    grid-template-rows: 1fr 3fr;
+  }
+
+  .lg\:bg-opacity-0 {
+    --tw-bg-opacity: 0;
+  }
+
+  .lg\:bg-none {
+    background-image: none;
+  }
 }
