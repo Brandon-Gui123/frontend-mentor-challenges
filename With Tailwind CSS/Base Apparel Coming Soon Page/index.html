@@ -9,14 +9,18 @@
 
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
-<body class="bg-gradient-to-br from-white to-[#fff5f5] min-h-screen">
+<body class="bg-gradient-to-br from-white to-[#fff5f5] min-h-screen 
+             lg:grid lg:grid-rows-[1fr_3fr] lg:grid-cols-2">
+
+  <!-- I use 1fr and 3fr to make the top row smaller than the bottom row since the top row is what contains the header. -->
 
   <header class="bg-white p-8">
     <a href="index.html"><img class="w-[32%]" src="images/logo.svg" alt="To Base Apparel Home Page"/></a>
   </header>
 
-  <figure>
-    <img class="w-full" src="images/hero-mobile.jpg" alt=""/>
+  <figure class="lg:row-span-2">
+    <img class="block md:hidden w-full" src="images/hero-mobile.jpg" alt=""/>
+    <img class="hidden md:block" src="images/hero-desktop.jpg" alt=""/>
   </figure>
 
   <main>
