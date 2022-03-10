@@ -23,23 +23,23 @@
     <img class="hidden md:block" src="images/hero-desktop.jpg" alt=""/>
   </figure>
 
-  <main>
-    <h1 class="text-desaturated-red text-center text-[2.6rem] uppercase font-light tracking-[0.25em] leading-none mt-16 px-4">
+  <main class="lg:px-40">
+    <h1 class="text-desaturated-red text-center lg:text-left text-[2.6rem] lg:text-6xl uppercase font-light tracking-[0.25em] leading-none mt-16 lg:mt-0 px-4 lg:px-0">
       We're <strong class="text-[#000000] font-semibold">coming soon</strong>
     </h1>
 
-    <p class="text-desaturated-red text-center text-sm mt-4 mb-8 px-8 leading-relaxed">
+    <p class="text-desaturated-red text-center lg:text-left text-sm lg:text-base mt-4 mb-8 px-8 lg:px-0 leading-relaxed">
       Hello fellow shoppers! We're currently building our new fashion store.
       Add your email below to stay up-to-date with announcements and our launch deals.
     </p>
 
-    <form class="px-8 mb-12" action="">
+    <form class="px-8 mb-12 lg:px-0" action="">
       <div class="relative">
         <!-- 
           The focus:outline-none removes the border that Chrome gives when a text field is focused.
           We don't need that since we already have our own border that changes when the field is focused.
         -->
-        <input class="border-desaturated-red/50 border-[1px] rounded-full bg-desaturated-red bg-opacity-0 px-5 py-3 placeholder:text-desaturated-red/50 w-full text-sm 
+        <input class="border-desaturated-red/50 border-[1px] rounded-full bg-desaturated-red bg-opacity-0 px-5 lg:px-6 py-3 lg:py-4 placeholder:text-desaturated-red/50 w-full text-sm 
                       focus:border-dark-grayish-red focus:outline-none
                       invalid:border-soft-red"
                type="email"
@@ -50,7 +50,7 @@
         <div class="absolute h-full flex items-center justify-end gap-4 top-0 right-0">
           <img id="email-field-error-icon" class="hidden" src="images/icon-error.svg" alt="" />
           
-          <button class="bg-gradient-to-br from-[#f8bfbf] to-[#ee8c8c] bg-no-repeat bg-center rounded-full h-full px-7 shadow-lg shadow-desaturated-red/50 hover:brightness-125 transition-[filter]" type="submit">
+          <button class="bg-gradient-to-br from-[#f8bfbf] to-[#ee8c8c] bg-no-repeat bg-center rounded-full h-full px-7 lg:px-10 shadow-lg shadow-desaturated-red/50 hover:brightness-125 transition-[filter]" type="submit">
             <img src="images/icon-arrow.svg" alt="Submit"/>
           </button>
         </div>
