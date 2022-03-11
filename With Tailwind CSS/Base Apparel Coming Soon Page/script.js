@@ -14,3 +14,9 @@ function emailFieldOnInput(emailFieldElement)
         emailFieldErrorText.style.display = "block";
     }
 }
+
+function emailFieldOnInvalid()
+{
+    emailFieldErrorIcon.style.display = "block";
+    emailFieldErrorText.style.display = "block";
+}

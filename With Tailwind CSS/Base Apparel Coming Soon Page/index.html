@@ -34,7 +34,7 @@
       Add your email below to stay up-to-date with announcements and our launch deals.
     </p>
 
-    <form class="px-8 mb-12 lg:px-0" action="">
+    <form class="px-8 mb-12 lg:px-0" id="subscribe-newsletter-form" action="">
       <div class="relative">
         <!-- 
           The focus:outline-none removes the border that Chrome gives when a text field is focused.
@@ -46,12 +46,15 @@
                type="email"
                placeholder="Email Address"
                oninput="emailFieldOnInput(this)"
+               oninvalid="emailFieldOnInvalid()"
+               required
         />
 
         <div class="absolute h-full flex items-center justify-end gap-4 top-0 right-0">
           <img id="email-field-error-icon" class="hidden" src="images/icon-error.svg" alt="" />
           
-          <button class="bg-gradient-to-br from-[#f8bfbf] to-[#ee8c8c] bg-no-repeat bg-center rounded-full h-full px-7 lg:px-10 shadow-lg shadow-desaturated-red/50 hover:brightness-125 transition-[filter]" type="submit">
+          <button class="bg-gradient-to-br from-[#f8bfbf] to-[#ee8c8c] bg-no-repeat bg-center rounded-full h-full px-7 lg:px-10 shadow-lg shadow-desaturated-red/50 hover:brightness-125 transition-[filter]"
+                  type="submit" form="subscribe-newsletter-form">
             <img src="images/icon-arrow.svg" alt="Submit"/>
           </button>
         </div>
