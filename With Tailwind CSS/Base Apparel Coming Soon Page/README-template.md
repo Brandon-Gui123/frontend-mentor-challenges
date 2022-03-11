@@ -50,8 +50,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://github.com/Brandon-Gui123/frontend-mentor-challenges/tree/main/With%20Tailwind%20CSS/Base%20Apparel%20Coming%20Soon%20Page)
+- [Live Site](https://brandon-gui123.github.io/frontend-mentor-challenges/With%20Tailwind%20CSS/Base%20Apparel%20Coming%20Soon%20Page/index.html)
 
 ## My process
 
