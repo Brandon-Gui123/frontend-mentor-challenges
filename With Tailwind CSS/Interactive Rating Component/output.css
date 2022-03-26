@@ -473,3 +473,38 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.bg-very-dark-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(216 12% 8% / var(--tw-bg-opacity));
+}
+
+.bg-dark-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(213 19% 18% / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-dark-blue {
+  --tw-gradient-from: hsl(213, 19%, 18%);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, hsl(213 19% 18% / 0));
+}
+
+.to-medium-grey {
+  --tw-gradient-to: hsl(216, 12%, 54%);
+}
+
+.to-very-dark-blue {
+  --tw-gradient-to: hsl(216, 12%, 8%);
+}
+
+.to-\[171e28\] {
+  --tw-gradient-to: 171e28;
+}
+
+.to-\[\#171e28\] {
+  --tw-gradient-to: #171e28;
+}
