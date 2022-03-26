@@ -478,36 +478,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
-
-.h-\[87\%\] {
-  height: 87%;
-}
-
 .h-screen {
   height: 100vh;
 }
 
-.w-11\/12 {
-  width: 91.666667%;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
-}
-
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[85\%\] {
-  width: 85%;
-}
-
 .w-\[87\%\] {
   width: 87%;
+}
+
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .items-center {
@@ -518,37 +500,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .bg-very-dark-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(216 12% 8% / var(--tw-bg-opacity));
 }
 
-.bg-dark-blue {
+.bg-\[\#262f38\] {
   --tw-bg-opacity: 1;
-  background-color: hsl(213 19% 18% / var(--tw-bg-opacity));
+  background-color: rgb(38 47 56 / var(--tw-bg-opacity));
 }
 
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+.bg-rating-bg {
+  background-image: radial-gradient(circle at top, hsl(213, 19%, 18%), #171e28);
 }
 
-.from-dark-blue {
-  --tw-gradient-from: hsl(213, 19%, 18%);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, hsl(213 19% 18% / 0));
+.p-5 {
+  padding: 1.25rem;
 }
 
-.to-medium-grey {
-  --tw-gradient-to: hsl(216, 12%, 54%);
-}
-
-.to-very-dark-blue {
-  --tw-gradient-to: hsl(216, 12%, 8%);
-}
-
-.to-\[171e28\] {
-  --tw-gradient-to: 171e28;
-}
-
-.to-\[\#171e28\] {
-  --tw-gradient-to: #171e28;
+.p-3 {
+  padding: 0.75rem;
 }

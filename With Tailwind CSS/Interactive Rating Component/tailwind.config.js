@@ -3,7 +3,11 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "rating-bg": "radial-gradient(circle at top, hsl(213, 19%, 18%), #171e28)"
+      }
+    },
     colors: {
       // primary
       "orange": "hsl(25, 97%, 53%)",
