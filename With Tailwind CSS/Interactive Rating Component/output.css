@@ -555,6 +555,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .bg-very-dark-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(216 12% 8% / var(--tw-bg-opacity));
