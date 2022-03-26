@@ -15,7 +15,7 @@
     @apply text-light-grey group-hover:text-white;
 }
 
-.rating-btn-selected-text {
+.rating-btn-selected-state {
     @apply bg-orange;
 }
 
