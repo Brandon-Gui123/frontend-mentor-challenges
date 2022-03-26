@@ -474,6 +474,50 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.h-\[87\%\] {
+  height: 87%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[87\%\] {
+  width: 87%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .bg-very-dark-blue {
   --tw-bg-opacity: 1;
   background-color: hsl(216 12% 8% / var(--tw-bg-opacity));
