@@ -487,8 +487,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-fit {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-\[15px\] {
+  height: 15px;
 }
 
 .w-\[87\%\] {
@@ -499,6 +513,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-\[15px\] {
+  width: 15px;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -535,6 +557,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.75rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -552,6 +582,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bold {
   font-weight: 700;
+}
+
+.leading-none {
+  line-height: 1;
+}
+
+.leading-\[0\] {
+  line-height: 0;
+}
+
+.tracking-normal {
+  letter-spacing: 0em;
 }
 
 .text-white {
