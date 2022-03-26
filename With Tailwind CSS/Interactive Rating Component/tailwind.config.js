@@ -17,6 +17,10 @@ module.exports = {
     },
     fontFamily: {
       "sans": [ "Overpass", ...defaultTheme.fontFamily.sans ]
+    },
+    fontWeight: {
+      "normal": 400,
+      "bold": 700
     }
   },
   plugins: [],
