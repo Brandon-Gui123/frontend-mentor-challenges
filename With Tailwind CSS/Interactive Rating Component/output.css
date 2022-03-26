@@ -712,7 +712,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
+.hover\:bg-medium-grey:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(216 12% 54% / var(--tw-bg-opacity));
+}
+
 .hover\:text-orange:hover {
   --tw-text-opacity: 1;
   color: hsl(25 97% 53% / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-white {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
