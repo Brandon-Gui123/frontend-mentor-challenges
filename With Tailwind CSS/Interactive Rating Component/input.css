@@ -6,3 +6,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.rating-btn-default-state {
+    @apply bg-[#262f38] hover:bg-medium-grey;
+}
+
+.rating-btn-text-default-state {
+    @apply text-light-grey group-hover:text-white;
+}
+
+.rating-btn-selected-text {
+    @apply bg-orange;
+}
+
+.rating-btn-text-selected-state {
+    @apply text-white;
+}
