@@ -31,3 +31,31 @@ function onBtnAnyRatingClicked(btn, rating)
     // submit the appropriate value
     submitRatingBtn.setAttribute("value", rating);
 }
+
+var ratingForm = document.getElementById("rating-form");
+ratingForm.addEventListener("submit", onFormSubmit);
+
+var submittedRating = document.getElementById("submitted-rating");
+
+var ratingState = document.getElementById("rating-state");
+var thankYouState = document.getElementById("thank-you-state");
+
+var noRatingTextWarning = document.getElementById("no-rating-warning-text");
+
+function onFormSubmit(submitEvent)
+{
+    // don't actually submit anything (this stops the page reloading)
+    submitEvent.preventDefault();
+
+    if (submitRatingBtn.getAttribute("value") === "")
+    {
+        noRatingTextWarning.style.display = "block";
+    }
+    else
+    {
+        // display the thank you state
+        ratingState.style.display = "none";
+        thankYouState.style.display = "block";
+        submittedRating.textContent = submitRatingBtn.getAttribute("value");
+    }
+}
