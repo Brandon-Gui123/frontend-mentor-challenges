@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/Brandon-Gui123/frontend-mentor-challenges/tree/main/With%20Tailwind%20CSS/Interactive%20Rating%20Component)
+- [Live Site URL](https://brandon-gui123.github.io/frontend-mentor-challenges/With%20Tailwind%20CSS/Interactive%20Rating%20Component/index.html)
 
 ## My process
 
